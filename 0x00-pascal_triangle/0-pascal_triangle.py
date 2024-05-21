@@ -1,10 +1,14 @@
 #!/usr/bin/python3
 """
 pascal_triangle - function that computes and returns the pascal's triangle.
+
 n(int) - The number of rows to be printed.
 return - A list of lists that contains the pascal's triangle.
 """
+
+
 def pascal_triangle(n):
+    """Compute the pascal's triangle."""
     if n <= 0:
         return []
     triangle = []
@@ -18,5 +22,5 @@ def pascal_triangle(n):
             triangle.append(row)
         else:
             triangle.append([1])
-            
+
     return triangle
