@@ -2,7 +2,7 @@
 """2D matrix rotation module."""
 
 
-def rotate_2d_matrix(matrix):
+def rotate_2d_matrix(matrix: list):
     """Rotates an m by n 2D matrix in 90 place."""
     if type(matrix) != list:
         return
